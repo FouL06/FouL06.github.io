@@ -1,0 +1,28 @@
+/**
+ * FouL06.github.io - All rights reserved (c) 2024
+ * Maintainers: Ashton Foulger
+ */
+
+#hero-container {
+  width: inherit;
+  flex: 1 1 auto;
+  margin: 2.5rem;
+  border: 3px solid #ffffff;
+
+  --dot-bg: #0b1425;
+  --dot-color: #ffffff;
+  --dot-size: 1px;
+  --dot-space: 41px;
+  background: linear-gradient(
+        90deg,
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    linear-gradient(
+        var(--dot-bg) calc(var(--dot-space) - var(--dot-size)),
+        transparent 1%
+      )
+      center / var(--dot-space) var(--dot-space),
+    var(--dot-color);
+}
