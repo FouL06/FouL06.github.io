@@ -1,0 +1,16 @@
+/**
+ * FouL06.github.io - All rights reserved (c) 2024
+ * Maintainers: Ashton Foulger
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+#body-container {
+  background-color: #0b1425;
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  min-height: 100vh;
+  font-family: "Orbitron", sans-serif;
+}
